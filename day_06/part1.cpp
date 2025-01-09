@@ -1,6 +1,11 @@
+/*
+The approach here is to fully simulate the guard_path. The input is parsed into a 2-d grid guard_map and the initial location is stored.
+Then the simulation knows where to start and it iteratively updates another 2-d grid guard_path to track all visited locations.
+ */
 #include <fstream>
 #include <vector>
 #include <string>
+#include <iostream>
 
 int main() {
   std::ifstream f("input.txt");
@@ -39,6 +44,8 @@ int main() {
   };
   Direction dir = Direction::up;
   bool still_going = true;
+  i = init_i;
+  j = init_j;
   while (still_going) {
     switch (dir) {
       case Direction::up: {
@@ -101,6 +108,6 @@ int main() {
     for (int j = 0; j < guard_path[i].size(); j++) {
       if (guard_path[i][j] == 1) result++;
     }
-    printf("%d\n", result);
   }
+  printf("%d\n", result);
 }
