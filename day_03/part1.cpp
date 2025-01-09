@@ -1,3 +1,6 @@
+/*
+The approach is to use a regex pattern to find a correct mul() pattern and then we can parse and multiply the numbers.
+ */
 #include <fstream>
 #include <string>
 #include <regex>

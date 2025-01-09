@@ -1,3 +1,6 @@
+/*
+We use a map to be able to track and lookup if items from one list exist in the other and then multiply accordingly.
+ */
 #include <vector>
 #include <unordered_map>
 #include <algorithm>

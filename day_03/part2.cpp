@@ -1,3 +1,9 @@
+/*
+  The approach is for each line we will iterate through the mul(X,Y) matches and the do() matches
+  keeping track of if we are in a do() or don't() state for the current mul match
+  by using the ->position() of the regex matches to be sure we are keeping the most
+  recent do_state for the current mul match we are processing. We can then carry out the valid multiplies.
+ */
 #include <fstream>
 #include <string>
 #include <regex>

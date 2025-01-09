@@ -1,3 +1,7 @@
+/*
+We make a function is_safe() that checks a given report is valid by iteratively checking for the desired
+'monotonic' properties. Then we can call is_safe() on each line as we parse the input.
+ */
 #include <fstream>
 #include <sstream>
 #include <string>

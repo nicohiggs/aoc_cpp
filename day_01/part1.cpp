@@ -1,3 +1,6 @@
+/*
+We parse into 2 lists, sort them, and then compute pairwise differences.
+ */
 #include <vector>
 #include <algorithm>
 #include <string>

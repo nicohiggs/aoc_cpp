@@ -1,3 +1,8 @@
+/*
+The approach is to parse data into a 2-d grid and then iterate through looking for X's.
+For each X we can do 2-d array look-ups for each possible XMAS pattern involving that X and return
+the count.
+ */
 #include <fstream>
 #include <string>
 #include <vector>

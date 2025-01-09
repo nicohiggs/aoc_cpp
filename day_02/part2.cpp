@@ -1,3 +1,6 @@
+/*
+Here we are able to brute force dropping one number at a time and checking it is still safe
+ */
 #include <fstream>
 #include <sstream>
 #include <string>

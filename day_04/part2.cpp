@@ -1,3 +1,7 @@
+/*
+The approach is to parse the input into a 2-d grid and then iterate through it looking for the A's.
+Then check for the X-MAS pattern at each A.
+ */
 #include <fstream>
 #include <string>
 #include <vector>
